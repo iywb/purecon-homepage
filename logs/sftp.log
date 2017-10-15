@@ -1,0 +1,206 @@
+Oct 15 21:23:13 10.71.49.40 u44206102 Connection from 10.71.49.40 port 17080 on 212.227.114.131 port 22
+Oct 15 21:23:19 10.71.49.40 u44206102 Failed password for u44206102 from 10.71.49.40 port 17080 ssh2
+Oct 15 21:27:47 10.71.49.40 u44206102 Connection from 10.71.49.40 port 42788 on 212.227.114.131 port 22
+Oct 15 21:27:48 10.71.49.40 u44206102 Accepted password for u44206102 from 10.71.49.40 port 42788 ssh2
+Oct 15 21:27:48 - u44206102 session opened for local user u44206102 from [10.71.49.40]
+Oct 15 21:28:20 - u44206102 open "/gre/gre686.png" flags READ mode 0666
+Oct 15 21:28:20 - u44206102 close "/gre/gre686.png" bytes read 149 written 0
+Oct 15 21:28:20 - u44206102 [10.71.49.40|get|0|149|0|0|0|2f6772652f6772653638362e706e67|]
+Oct 15 21:28:20 - u44206102 open "/gre/gre687.png" flags READ mode 0666
+Oct 15 21:28:20 - u44206102 close "/gre/gre687.png" bytes read 149 written 0
+Oct 15 21:28:20 - u44206102 [10.71.49.40|get|0|149|0|0|0|2f6772652f6772653638372e706e67|]
+Oct 15 21:28:20 - u44206102 open "/gre/gre688.png" flags READ mode 0666
+Oct 15 21:28:20 - u44206102 close "/gre/gre688.png" bytes read 149 written 0
+Oct 15 21:28:20 - u44206102 [10.71.49.40|get|0|149|0|0|0|2f6772652f6772653638382e706e67|]
+Oct 15 21:28:20 - u44206102 open "/gre/gre689.png" flags READ mode 0666
+Oct 15 21:28:20 - u44206102 close "/gre/gre689.png" bytes read 250 written 0
+Oct 15 21:28:20 - u44206102 [10.71.49.40|get|0|250|0|0|0|2f6772652f6772653638392e706e67|]
+Oct 15 21:28:20 - u44206102 open "/gre/gre690.png" flags READ mode 0666
+Oct 15 21:28:20 - u44206102 close "/gre/gre690.png" bytes read 250 written 0
+Oct 15 21:28:20 - u44206102 [10.71.49.40|get|0|250|0|0|0|2f6772652f6772653639302e706e67|]
+Oct 15 21:28:20 - u44206102 open "/gre/gre693.png" flags READ mode 0666
+Oct 15 21:28:21 - u44206102 close "/gre/gre693.png" bytes read 197 written 0
+Oct 15 21:28:21 - u44206102 [10.71.49.40|get|1|197|0|0|0|2f6772652f6772653639332e706e67|]
+Oct 15 21:28:21 - u44206102 open "/gre/gre692.png" flags READ mode 0666
+Oct 15 21:28:21 - u44206102 close "/gre/gre692.png" bytes read 197 written 0
+Oct 15 21:28:21 - u44206102 [10.71.49.40|get|0|197|0|0|0|2f6772652f6772653639322e706e67|]
+Oct 15 21:28:21 - u44206102 open "/gre/gre694.png" flags READ mode 0666
+Oct 15 21:28:21 - u44206102 close "/gre/gre694.png" bytes read 197 written 0
+Oct 15 21:28:21 - u44206102 [10.71.49.40|get|0|197|0|0|0|2f6772652f6772653639342e706e67|]
+Oct 15 21:28:21 - u44206102 open "/gre/gre691.png" flags READ mode 0666
+Oct 15 21:28:21 - u44206102 close "/gre/gre691.png" bytes read 250 written 0
+Oct 15 21:28:21 - u44206102 [10.71.49.40|get|0|250|0|0|0|2f6772652f6772653639312e706e67|]
+Oct 15 21:28:21 - u44206102 open "/gre/gre695.png" flags READ mode 0666
+Oct 15 21:28:21 - u44206102 close "/gre/gre695.png" bytes read 170 written 0
+Oct 15 21:28:21 - u44206102 [10.71.49.40|get|0|170|0|0|0|2f6772652f6772653639352e706e67|]
+Oct 15 21:28:21 - u44206102 open "/gre/gre696.png" flags READ mode 0666
+Oct 15 21:28:21 - u44206102 close "/gre/gre696.png" bytes read 170 written 0
+Oct 15 21:28:21 - u44206102 [10.71.49.40|get|0|170|0|0|0|2f6772652f6772653639362e706e67|]
+Oct 15 21:28:21 - u44206102 open "/gre/gre697.png" flags READ mode 0666
+Oct 15 21:28:21 - u44206102 close "/gre/gre697.png" bytes read 170 written 0
+Oct 15 21:28:21 - u44206102 [10.71.49.40|get|0|170|0|0|0|2f6772652f6772653639372e706e67|]
+Oct 15 21:28:21 - u44206102 open "/gre/gre699.png" flags READ mode 0666
+Oct 15 21:28:21 - u44206102 close "/gre/gre699.png" bytes read 183 written 0
+Oct 15 21:28:21 - u44206102 [10.71.49.40|get|0|183|0|0|0|2f6772652f6772653639392e706e67|]
+Oct 15 21:28:21 - u44206102 open "/gre/gre701.png" flags READ mode 0666
+Oct 15 21:28:22 - u44206102 close "/gre/gre701.png" bytes read 180 written 0
+Oct 15 21:28:22 - u44206102 [10.71.49.40|get|1|180|0|0|0|2f6772652f6772653730312e706e67|]
+Oct 15 21:28:22 - u44206102 open "/gre/gre702.png" flags READ mode 0666
+Oct 15 21:28:22 - u44206102 close "/gre/gre702.png" bytes read 180 written 0
+Oct 15 21:28:22 - u44206102 [10.71.49.40|get|0|180|0|0|0|2f6772652f6772653730322e706e67|]
+Oct 15 21:28:22 - u44206102 open "/gre/gre700.png" flags READ mode 0666
+Oct 15 21:28:22 - u44206102 close "/gre/gre700.png" bytes read 183 written 0
+Oct 15 21:28:22 - u44206102 [10.71.49.40|get|0|183|0|0|0|2f6772652f6772653730302e706e67|]
+Oct 15 21:28:22 - u44206102 open "/gre/gre698.png" flags READ mode 0666
+Oct 15 21:28:22 - u44206102 close "/gre/gre698.png" bytes read 183 written 0
+Oct 15 21:28:22 - u44206102 [10.71.49.40|get|0|183|0|0|0|2f6772652f6772653639382e706e67|]
+Oct 15 21:28:22 - u44206102 open "/gre/gre704.png" flags READ mode 0666
+Oct 15 21:28:22 - u44206102 close "/gre/gre704.png" bytes read 197 written 0
+Oct 15 21:28:22 - u44206102 [10.71.49.40|get|0|197|0|0|0|2f6772652f6772653730342e706e67|]
+Oct 15 21:28:22 - u44206102 open "/gre/gre703.png" flags READ mode 0666
+Oct 15 21:28:22 - u44206102 close "/gre/gre703.png" bytes read 180 written 0
+Oct 15 21:28:22 - u44206102 [10.71.49.40|get|0|180|0|0|0|2f6772652f6772653730332e706e67|]
+Oct 15 21:28:22 - u44206102 open "/gre/gre705.png" flags READ mode 0666
+Oct 15 21:28:22 - u44206102 close "/gre/gre705.png" bytes read 197 written 0
+Oct 15 21:28:22 - u44206102 [10.71.49.40|get|0|197|0|0|0|2f6772652f6772653730352e706e67|]
+Oct 15 21:28:22 - u44206102 open "/gre/gre706.png" flags READ mode 0666
+Oct 15 21:28:22 - u44206102 close "/gre/gre706.png" bytes read 197 written 0
+Oct 15 21:28:22 - u44206102 [10.71.49.40|get|0|197|0|0|0|2f6772652f6772653730362e706e67|]
+Oct 15 21:28:22 - u44206102 open "/gre/gre707.png" flags READ mode 0666
+Oct 15 21:28:23 - u44206102 close "/gre/gre707.png" bytes read 3039 written 0
+Oct 15 21:28:23 - u44206102 [10.71.49.40|get|1|3039|0|0|0|2f6772652f6772653730372e706e67|]
+Oct 15 21:28:23 - u44206102 open "/img/space.gif" flags READ mode 0666
+Oct 15 21:28:23 - u44206102 close "/img/space.gif" bytes read 49 written 0
+Oct 15 21:28:23 - u44206102 [10.71.49.40|get|0|49|0|0|0|2f696d672f73706163652e676966|]
+Oct 15 21:28:23 - u44206102 open "/logs/traffic.html/index.html" flags READ mode 0666
+Oct 15 21:28:23 - u44206102 close "/logs/traffic.html/index.html" bytes read 7797 written 0
+Oct 15 21:28:23 - u44206102 [10.71.49.40|get|0|7797|0|0|0|2f6c6f67732f747261666669632e68746d6c2f696e6465782e68746d6c|]
+Oct 15 21:28:23 - u44206102 open "/logs/traffic.html/02.html" flags READ mode 0666
+Oct 15 21:28:23 - u44206102 close "/logs/traffic.html/02.html" bytes read 10649 written 0
+Oct 15 21:28:23 - u44206102 [10.71.49.40|get|0|10649|0|0|0|2f6c6f67732f747261666669632e68746d6c2f30322e68746d6c|]
+Oct 15 21:28:23 - u44206102 open "/logs/traffic.html/03.html" flags READ mode 0666
+Oct 15 21:28:23 - u44206102 close "/logs/traffic.html/03.html" bytes read 11658 written 0
+Oct 15 21:28:23 - u44206102 [10.71.49.40|get|0|11658|0|0|0|2f6c6f67732f747261666669632e68746d6c2f30332e68746d6c|]
+Oct 15 21:28:24 - u44206102 open "/logs/traffic.html/04.html" flags READ mode 0666
+Oct 15 21:28:24 - u44206102 close "/logs/traffic.html/04.html" bytes read 11307 written 0
+Oct 15 21:28:24 - u44206102 [10.71.49.40|get|0|11307|0|0|0|2f6c6f67732f747261666669632e68746d6c2f30342e68746d6c|]
+Oct 15 21:28:24 - u44206102 open "/logs/traffic.html/05.html" flags READ mode 0666
+Oct 15 21:28:24 - u44206102 close "/logs/traffic.html/05.html" bytes read 11674 written 0
+Oct 15 21:28:24 - u44206102 [10.71.49.40|get|0|11674|0|0|0|2f6c6f67732f747261666669632e68746d6c2f30352e68746d6c|]
+Oct 15 21:28:24 - u44206102 open "/logs/traffic.html/06.html" flags READ mode 0666
+Oct 15 21:28:24 - u44206102 close "/logs/traffic.html/06.html" bytes read 11329 written 0
+Oct 15 21:28:24 - u44206102 [10.71.49.40|get|0|11329|0|0|0|2f6c6f67732f747261666669632e68746d6c2f30362e68746d6c|]
+Oct 15 21:28:24 - u44206102 open "/logs/traffic.html/07.html" flags READ mode 0666
+Oct 15 21:28:24 - u44206102 close "/logs/traffic.html/07.html" bytes read 11698 written 0
+Oct 15 21:28:24 - u44206102 [10.71.49.40|get|0|11698|0|0|0|2f6c6f67732f747261666669632e68746d6c2f30372e68746d6c|]
+Oct 15 21:28:24 - u44206102 open "/logs/traffic.html/08.html" flags READ mode 0666
+Oct 15 21:28:24 - u44206102 close "/logs/traffic.html/08.html" bytes read 11670 written 0
+Oct 15 21:28:24 - u44206102 [10.71.49.40|get|0|11670|0|0|0|2f6c6f67732f747261666669632e68746d6c2f30382e68746d6c|]
+Oct 15 21:28:24 - u44206102 open "/logs/traffic.html/09.html" flags READ mode 0666
+Oct 15 21:28:24 - u44206102 close "/logs/traffic.html/09.html" bytes read 11335 written 0
+Oct 15 21:28:24 - u44206102 [10.71.49.40|get|0|11335|0|0|0|2f6c6f67732f747261666669632e68746d6c2f30392e68746d6c|]
+Oct 15 21:28:24 - u44206102 open "/logs/traffic.html/10.html" flags READ mode 0666
+Oct 15 21:28:24 - u44206102 close "/logs/traffic.html/10.html" bytes read 5811 written 0
+Oct 15 21:28:24 - u44206102 [10.71.49.40|get|0|5811|0|0|0|2f6c6f67732f747261666669632e68746d6c2f31302e68746d6c|]
+Oct 15 21:28:24 - u44206102 open "/logs/traffic.html/11.html" flags READ mode 0666
+Oct 15 21:28:25 - u44206102 close "/logs/traffic.html/11.html" bytes read 11315 written 0
+Oct 15 21:28:25 - u44206102 [10.71.49.40|get|1|11315|0|0|0|2f6c6f67732f747261666669632e68746d6c2f31312e68746d6c|]
+Oct 15 21:28:25 - u44206102 open "/logs/traffic.html/12.html" flags READ mode 0666
+Oct 15 21:28:25 - u44206102 close "/logs/traffic.html/12.html" bytes read 11658 written 0
+Oct 15 21:28:25 - u44206102 [10.71.49.40|get|0|11658|0|0|0|2f6c6f67732f747261666669632e68746d6c2f31322e68746d6c|]
+Oct 15 21:28:25 - u44206102 open "/logs/traffic.html/01.html" flags READ mode 0666
+Oct 15 21:28:25 - u44206102 close "/logs/traffic.html/01.html" bytes read 11662 written 0
+Oct 15 21:28:25 - u44206102 [10.71.49.40|get|0|11662|0|0|0|2f6c6f67732f747261666669632e68746d6c2f30312e68746d6c|]
+Oct 15 21:28:25 - u44206102 open "/logs/traffic.html/.htaccess" flags READ mode 0666
+Oct 15 21:28:25 - u44206102 close "/logs/traffic.html/.htaccess" bytes read 23 written 0
+Oct 15 21:28:25 - u44206102 [10.71.49.40|get|0|23|0|0|0|2f6c6f67732f747261666669632e68746d6c2f2e6874616363657373|]
+Oct 15 21:28:25 - u44206102 open "/logs/traffic.html/.md5sums" flags READ mode 0666
+Oct 15 21:28:25 - u44206102 sent status Permission denied
+Oct 15 21:28:32 - u44206102 open "/logs/.htaccess" flags READ mode 0666
+Oct 15 21:28:32 - u44206102 close "/logs/.htaccess" bytes read 267 written 0
+Oct 15 21:28:32 - u44206102 [10.71.49.40|get|0|267|0|0|0|2f6c6f67732f2e6874616363657373|]
+Oct 15 21:28:32 - u44206102 open "/logs/traffic.db" flags READ mode 0666
+Oct 15 21:28:32 - u44206102 close "/logs/traffic.db" bytes read 45056 written 0
+Oct 15 21:28:32 - u44206102 [10.71.49.40|get|0|45056|0|0|0|2f6c6f67732f747261666669632e6462|]
+Oct 15 21:28:32 - u44206102 open "/logs/info.php" flags READ mode 0666
+Oct 15 21:28:32 - u44206102 close "/logs/info.php" bytes read 21 written 0
+Oct 15 21:28:32 - u44206102 [10.71.49.40|get|0|21|0|0|0|2f6c6f67732f696e666f2e706870|]
+Oct 15 21:28:32 - u44206102 open "/logs/access.log.40.2.gz" flags READ mode 0666
+Oct 15 21:28:32 - u44206102 close "/logs/access.log.40.2.gz" bytes read 2319 written 0
+Oct 15 21:28:32 - u44206102 [10.71.49.40|get|0|2319|0|0|0|2f6c6f67732f6163636573732e6c6f672e34302e322e677a|]
+Oct 15 21:28:32 - u44206102 open "/logs/access.log.40.6.gz" flags READ mode 0666
+Oct 15 21:28:32 - u44206102 close "/logs/access.log.40.6.gz" bytes read 1851 written 0
+Oct 15 21:28:32 - u44206102 [10.71.49.40|get|0|1851|0|0|0|2f6c6f67732f6163636573732e6c6f672e34302e362e677a|]
+Oct 15 21:28:32 - u44206102 open "/logs/traffic.db.info" flags READ mode 0666
+Oct 15 21:28:32 - u44206102 close "/logs/traffic.db.info" bytes read 492 written 0
+Oct 15 21:28:32 - u44206102 [10.71.49.40|get|0|492|0|0|0|2f6c6f67732f747261666669632e64622e696e666f|]
+Oct 15 21:28:32 - u44206102 open "/logs/info.php5" flags READ mode 0666
+Oct 15 21:28:33 - u44206102 close "/logs/info.php5" bytes read 21 written 0
+Oct 15 21:28:33 - u44206102 [10.71.49.40|get|1|21|0|0|0|2f6c6f67732f696e666f2e70687035|]
+Oct 15 21:28:33 - u44206102 open "/logs/traffic.db.org" flags READ mode 0666
+Oct 15 21:28:33 - u44206102 close "/logs/traffic.db.org" bytes read 45056 written 0
+Oct 15 21:28:33 - u44206102 [10.71.49.40|get|0|45056|0|0|0|2f6c6f67732f747261666669632e64622e6f7267|]
+Oct 15 21:28:33 - u44206102 open "/logs/access.log.36.gz" flags READ mode 0666
+Oct 15 21:28:33 - u44206102 close "/logs/access.log.36.gz" bytes read 9871 written 0
+Oct 15 21:28:33 - u44206102 [10.71.49.40|get|0|9871|0|0|0|2f6c6f67732f6163636573732e6c6f672e33362e677a|]
+Oct 15 21:28:33 - u44206102 open "/logs/access.log.37.gz" flags READ mode 0666
+Oct 15 21:28:33 - u44206102 close "/logs/access.log.37.gz" bytes read 12178 written 0
+Oct 15 21:28:33 - u44206102 [10.71.49.40|get|0|12178|0|0|0|2f6c6f67732f6163636573732e6c6f672e33372e677a|]
+Oct 15 21:28:33 - u44206102 open "/logs/access.log.41.1.gz" flags READ mode 0666
+Oct 15 21:28:33 - u44206102 close "/logs/access.log.41.1.gz" bytes read 1829 written 0
+Oct 15 21:28:33 - u44206102 [10.71.49.40|get|0|1829|0|0|0|2f6c6f67732f6163636573732e6c6f672e34312e312e677a|]
+Oct 15 21:28:33 - u44206102 open "/logs/access.log.41.2.gz" flags READ mode 0666
+Oct 15 21:28:33 - u44206102 close "/logs/access.log.41.2.gz" bytes read 2208 written 0
+Oct 15 21:28:33 - u44206102 [10.71.49.40|get|0|2208|0|0|0|2f6c6f67732f6163636573732e6c6f672e34312e322e677a|]
+Oct 15 21:28:33 - u44206102 open "/logs/access.log.41.3.gz" flags READ mode 0666
+Oct 15 21:28:33 - u44206102 close "/logs/access.log.41.3.gz" bytes read 2259 written 0
+Oct 15 21:28:33 - u44206102 [10.71.49.40|get|0|2259|0|0|0|2f6c6f67732f6163636573732e6c6f672e34312e332e677a|]
+Oct 15 21:28:33 - u44206102 open "/logs/access.log.41.4.gz" flags READ mode 0666
+Oct 15 21:28:33 - u44206102 close "/logs/access.log.41.4.gz" bytes read 2503 written 0
+Oct 15 21:28:33 - u44206102 [10.71.49.40|get|0|2503|0|0|0|2f6c6f67732f6163636573732e6c6f672e34312e342e677a|]
+Oct 15 21:28:34 - u44206102 open "/logs/access.log.41.7" flags READ mode 0666
+Oct 15 21:28:34 - u44206102 close "/logs/access.log.41.7" bytes read 29211 written 0
+Oct 15 21:28:34 - u44206102 [10.71.49.40|get|0|29211|0|0|0|2f6c6f67732f6163636573732e6c6f672e34312e37|]
+Oct 15 21:28:34 - u44206102 open "/logs/access.log.41.6.gz" flags READ mode 0666
+Oct 15 21:28:34 - u44206102 close "/logs/access.log.41.6.gz" bytes read 2285 written 0
+Oct 15 21:28:34 - u44206102 [10.71.49.40|get|0|2285|0|0|0|2f6c6f67732f6163636573732e6c6f672e34312e362e677a|]
+Oct 15 21:28:34 - u44206102 open "/logs/access.log.34.gz" flags READ mode 0666
+Oct 15 21:28:34 - u44206102 close "/logs/access.log.34.gz" bytes read 10223 written 0
+Oct 15 21:28:34 - u44206102 [10.71.49.40|get|0|10223|0|0|0|2f6c6f67732f6163636573732e6c6f672e33342e677a|]
+Oct 15 21:28:34 - u44206102 open "/logs/access.log.40.4.gz" flags READ mode 0666
+Oct 15 21:28:34 - u44206102 close "/logs/access.log.40.4.gz" bytes read 3060 written 0
+Oct 15 21:28:34 - u44206102 [10.71.49.40|get|0|3060|0|0|0|2f6c6f67732f6163636573732e6c6f672e34302e342e677a|]
+Oct 15 21:28:34 - u44206102 open "/logs/access.log.41.5.gz" flags READ mode 0666
+Oct 15 21:28:34 - u44206102 close "/logs/access.log.41.5.gz" bytes read 2890 written 0
+Oct 15 21:28:34 - u44206102 [10.71.49.40|get|0|2890|0|0|0|2f6c6f67732f6163636573732e6c6f672e34312e352e677a|]
+Oct 15 21:28:34 - u44206102 open "/logs/access.log.current" flags READ mode 0666
+Oct 15 21:28:34 - u44206102 close "/logs/access.log.current" bytes read 29211 written 0
+Oct 15 21:28:34 - u44206102 [10.71.49.40|get|0|29211|0|0|0|2f6c6f67732f6163636573732e6c6f672e63757272656e74|]
+Oct 15 21:28:34 - u44206102 open "/logs/access.log.35.gz" flags READ mode 0666
+Oct 15 21:28:34 - u44206102 close "/logs/access.log.35.gz" bytes read 11908 written 0
+Oct 15 21:28:34 - u44206102 [10.71.49.40|get|0|11908|0|0|0|2f6c6f67732f6163636573732e6c6f672e33352e677a|]
+Oct 15 21:28:34 - u44206102 open "/logs/access.log.40.3.gz" flags READ mode 0666
+Oct 15 21:28:35 - u44206102 close "/logs/access.log.40.3.gz" bytes read 3553 written 0
+Oct 15 21:28:35 - u44206102 [10.71.49.40|get|1|3553|0|0|0|2f6c6f67732f6163636573732e6c6f672e34302e332e677a|]
+Oct 15 21:28:35 - u44206102 open "/logs/access.log.40.7.gz" flags READ mode 0666
+Oct 15 21:28:35 - u44206102 close "/logs/access.log.40.7.gz" bytes read 2000 written 0
+Oct 15 21:28:35 - u44206102 [10.71.49.40|get|0|2000|0|0|0|2f6c6f67732f6163636573732e6c6f672e34302e372e677a|]
+Oct 15 21:28:35 - u44206102 open "/logs/last_traffic" flags READ mode 0666
+Oct 15 21:28:35 - u44206102 close "/logs/last_traffic" bytes read 0 written 0
+Oct 15 21:28:35 - u44206102 [10.71.49.40|get|0|0|0|0|0|2f6c6f67732f6c6173745f74726166666963|]
+Oct 15 21:28:35 - u44206102 open "/logs/access.log.40.1.gz" flags READ mode 0666
+Oct 15 21:28:35 - u44206102 close "/logs/access.log.40.1.gz" bytes read 2834 written 0
+Oct 15 21:28:35 - u44206102 [10.71.49.40|get|0|2834|0|0|0|2f6c6f67732f6163636573732e6c6f672e34302e312e677a|]
+Oct 15 21:28:35 - u44206102 open "/logs/access.log.40.5.gz" flags READ mode 0666
+Oct 15 21:28:35 - u44206102 close "/logs/access.log.40.5.gz" bytes read 1921 written 0
+Oct 15 21:28:35 - u44206102 [10.71.49.40|get|0|1921|0|0|0|2f6c6f67732f6163636573732e6c6f672e34302e352e677a|]
+Oct 15 21:28:35 - u44206102 open "/logs/access.log.38.gz" flags READ mode 0666
+Oct 15 21:28:35 - u44206102 close "/logs/access.log.38.gz" bytes read 10428 written 0
+Oct 15 21:28:35 - u44206102 [10.71.49.40|get|0|10428|0|0|0|2f6c6f67732f6163636573732e6c6f672e33382e677a|]
+Oct 15 21:28:35 - u44206102 open "/logs/access.log.33.gz" flags READ mode 0666
+Oct 15 21:28:35 - u44206102 close "/logs/access.log.33.gz" bytes read 9432 written 0
+Oct 15 21:28:35 - u44206102 [10.71.49.40|get|0|9432|0|0|0|2f6c6f67732f6163636573732e6c6f672e33332e677a|]
+Oct 15 21:28:35 - u44206102 open "/logs/access.log.39.gz" flags READ mode 0666
+Oct 15 21:28:35 - u44206102 close "/logs/access.log.39.gz" bytes read 11045 written 0
+Oct 15 21:28:35 - u44206102 [10.71.49.40|get|0|11045|0|0|0|2f6c6f67732f6163636573732e6c6f672e33392e677a|]
+Oct 15 21:28:36 - u44206102 open "/logs/sftp.log" flags READ mode 0666

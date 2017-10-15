@@ -1,0 +1,141 @@
+/* TAGS */
+* {margin:0;padding:0}
+html {min-width:940px} 
+body {background-color:#2d3033;
+	font-family:Verdana,Tahoma,Arial,helvetica,sans-serif;
+	font-size:100%;
+	color: #939596;
+	line-height:1em;
+	min-width:940px}
+object {vertical-align:top;outline:none}
+input,textarea,select {font-family:Tahoma,Arial,helvetica,sans-serif;font-size:1em;vertical-align:middle;font-weight:normal}
+fieldset {border:0}
+p {margin:0;padding:0}
+img {border:0;vertical-align:top;text-align:left}
+ul,ol {list-style:none}
+/* GLOBAL */
+#main {width:900px;
+  margin:0 auto;
+}
+#header,#content,#footer {font-size:0.75em}
+.col-1,.col-2,.col-3 {float:left}
+#content .col-1 {width:570px;padding:12px 0}
+#content .col-2 {width:305px;float:right}
+
+/* ALIGMENT */
+.fleft {float:left}
+.fright {float:right}
+.clear {clear:both}
+.alignright {text-align:right}
+.aligncenter {text-align:center}
+.wrapper {width:100%;overflow:hidden}
+.extra-wrap {overflow:hidden}
+.container {width:100%}
+/* LISTS */
+.box-list {width:100%;overflow:hidden}
+.box-list li {float:left;width:228px;margin-right:12px}
+.box-list li .box1 p {margin:0}
+.box-list li .box1 p a {position:relative;top:5px}
+.box-list li.alt {margin-right:8px}
+.box-list li.alt2 {margin-right:8px}
+.box-list li.last {margin-right:0}
+.list {margin-top:-14px}
+.list li {line-height:1.83em;width:100%;overflow:hidden;vertical-align:top;padding-top:14px}
+.list li img {float:left;margin-right:20px}
+.list li a {font-weight:bold;text-decoration:none}
+.list li a:hover {text-decoration:underline;}
+.aufzaehlung {padding-bottom:20px}
+.aufzaehlung li {padding:0 0 0 16px;line-height:1.83em;
+    background-size: 8px;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-image: url(../images/aufzaehlungszeichen.gif);
+}
+/* OTHER */
+.img-box1 {width:100%;overflow:hidden;padding-bottom:20px}
+.img-box1 img {float:left;margin:0 30px 0 0}
+p {line-height:1.83em;margin-bottom:20px}
+.p0 {margin:0}
+.address {float:left;line-height:1.83em;margin-right:59px}
+.address b {width:78px;float:left}
+p b{color: lightgray;}
+/* TXT,LINKS,LINES,TITLES */
+a {color:green;outline:none}
+a:hover {color: lightgreen; text-decoration:none}
+h2 {font-size:40px;line-height:1.2em;margin-bottom:10px}
+h2 b {display:block;padding-left:95px;margin-top:-12px}
+h3 {font-size:24px;line-height:1.2em;letter-spacing:1px;margin-bottom:15px;color:#fff}
+h4 {font-size:24px;line-height:1.2em;margin-bottom:10px}
+h5 {font-size:16px;line-height:1.2em;letter-spacing:1px;margin-bottom:15px;color:#fff}
+h5 {font-size:16px; color:#939596}
+h3 b,h4 b {color:#008000}
+.link1 {font-size:14px;text-decoration:none;color:#fff;float:left;text-transform:uppercase;display:inline-block;cursor:pointer;background:url(images/button-left.png) no-repeat left top}
+/* HEADER */
+#header {height:150px;
+	position:relative;
+	background-color:#2d3033}
+#header .row-1 {height:90px}
+#header .row-1 .fleft {padding:20px 0 0 22px}
+#header .row-1 .fright {padding:34px 34px 0 0}
+#header .row-1 .fright ul li {float:left;padding-left:2px;}
+#header .row-2 ul {height:58px;width:100%;overflow:hidden;}
+#header .row-2 ul li {float:left;text-transform:uppercase;text-align:center;font-size:14px;line-height:1.2em;}
+#header .row-2 ul li.last {background:none;padding-right:0}
+#header .row-2 ul li.last a {width:150px}
+#header .row-2 ul li a {text-decoration:none;color:#008000;width:120px;text-align:center;display:block;padding:5px 0 0 0;}
+#header .row-2 ul li a:hover {color:lightgreen;}
+/* CONTENT */
+#content {padding-bottom:3px}
+#content .indent {padding:0 0 0 20px}
+/* FOOTER */
+#footer {text-align:center;
+  color:#939596;
+  line-height:1.67em;
+  padding:8px 0 13px 0}
+#footer a {color:#008000}
+#footer a:hover{color: lightgreen}
+
+/* Easy Slider */
+	#slider ul, #slider li{
+		margin:0;
+		padding:0;
+		list-style:none;
+		}
+	#slider li{ 
+		width:940px;
+		height:321px;
+		overflow:hidden; 
+		}
+	#slider2 li{ 
+		width:940px;
+		height:400px;
+		overflow:hidden
+		}
+	ol#controls{
+		margin:1em 0;
+		padding:0;
+		height:10px;	
+		}
+	ol#controls li{
+		margin:0 10px 0 0; 
+		padding:0;
+		float:right;
+		list-style:none;
+		height:10px;
+		line-height:10px;
+		}
+	ol#controls li a{
+		float:right;
+		height:15px;
+		line-height:10px;
+		border:1px solid #ccc;
+		background:gray;
+		color:gray;
+		padding:0 2px;
+		text-decoration:none;
+		}
+	ol#controls li.current a{
+		background:#008000;
+		color:#008000;
+		}
+	ol#controls li a:focus, #prevBtn a:focus, #nextBtn a:focus{outline:none;}

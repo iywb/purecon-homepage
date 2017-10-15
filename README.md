@@ -1,1 +1,0 @@
-# purecon-homepage

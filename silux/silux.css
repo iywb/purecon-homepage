@@ -1,0 +1,590 @@
+/* Copyright:    ARS IN4MATICA GmbH */
+/* Realisierung: Wolfgang Moeller    */
+/* Datum:        24.06.2013         */
+
+body {
+ background-color: #FFFFFF;
+ font-size: 11px;
+ font-family: Verdana, Arial, SunSans-Regular, Sans-Serif;
+ color:#fff;
+ padding:0px;
+ margin:0px;
+}
+
+a {
+ color: #FFFFFF;
+ text-decoration: none;
+}
+
+a:visited {
+ color:#FFFFFF;
+}
+
+a:hover {
+ color: #FFFFFF;
+ font-weight: bold;
+}
+
+a:active {
+ color:#FFFFFF;
+}
+
+/* ----------Container fuer Navi und Sprachauswahl---------- */
+#menucontainer {
+ width: 100%;
+ height: 65px;           /* Hoehe der Menueleiste darf nicht unter 50 sein, sonst funzt das nicht mehr */
+ background: #FFF;
+ padding:0px;
+ margin-left: 0px;
+} 
+#logomenu {
+    float: left;
+    background: #ffffff;
+    margin: 14px 10px 0px 25px ;             /* genaue Positionierung des Logos */
+}
+          
+#cssmenu {
+	margin-top: 20px;
+	border:     0px;
+	background: #fff;
+	float:      left;
+    width:      600px;                       /* Breite der Menueleiste */
+    height:     20px;
+}
+
+#cssmenu > ul {
+	padding:1px 0;                           /* 1 Pixel auffüllen von oben */
+	margin:0;
+	list-style:none;
+	width:100%;
+	height:20px;
+	border-bottom:0px solid #FFFFFF;
+	font: normal 11pt verdana, arial, helvetica;
+}
+#cssmenu > ul li {
+	margin:0;
+	padding:0;
+	display:block;
+	float:left;
+	position:relative;
+	width:200px;
+}
+#cssmenu > ul li a:link, #cssmenu > ul li a:visited {
+	padding:4px 0;
+	display:block;
+	text-align:center;
+	text-decoration:none;
+	background:white;
+	color:gray;
+	width:180px;
+	height:20px;
+}
+#cssmenu > ul li:hover a, #cssmenu > ul li a:hover, #cssmenu > ul li a:active {
+	padding:4px 0;
+	display:block;
+	text-align:center;
+	text-decoration:none;
+	background:gray;
+	color:#fff;
+	width:180px;
+	height:20px;
+	border-left:1px solid #ffffff;
+	border-right:1px solid #ffffff;
+}
+#cssmenu > ul li ul {
+	margin:0;
+	padding:1px 1px 0;
+	list-style:none;
+	display:none;
+	background:#ffffff;
+	width:180px;
+	position:absolute;
+	top:28px;
+	border-top:none;
+}
+#cssmenu > ul li:hover ul {
+	display:block;
+}
+#cssmenu > ul li ul li {
+
+	clear:left;
+	width:180px;
+}
+#cssmenu > ul li ul li a:link, #cssmenu > ul li ul li a:visited {
+	clear:left;
+	background:gray;
+	padding:4px 0;
+	width:180px;
+	border:none;
+	border-bottom:1px solid #ffffff;
+	position:relative;
+	z-index:1000;
+}
+#cssmenu > ul li ul li:hover a, #cssmenu > ul li ul li a:active, #cssmenu > ul li ul li a:hover {
+	clear:left;
+	background:darkred;
+	padding:4px 0;
+	width:180px;
+	border:none;
+	border-bottom:1px solid #ffffff;
+	position:relative;
+	z-index:1000;
+}
+#cssmenu > ul li ul li ul.navigation-3 {
+	display:none;
+	margin:0;
+	list-style:none;
+	position:absolute;
+	left:180px;
+	top:-2px;
+	padding:1px 1px 0 1px;
+/*	border:1px solid #b9121b; */
+	border-left:1px solid #b9121b;
+	background:#ffffff;
+	z-index:900;
+}
+#cssmenu > ul li ul li:hover ul.navigation-3 {
+	display:block;
+}
+#cssmenu > ul li ul li ul.navigation-3 li a:link, #cssmenu > ul li ul li ul.navigation-3 li a:visited {
+	background:#b9121b;
+}
+#cssmenu > ul li ul li ul.navigation-3 li:hover a, #cssmenu > ul li ul li ul.navigation-3 li a:hover, #cssmenu > ul li ul li ul.navigation-3 li a:active {
+	background:#ec454e;
+}
+
+
+
+/* ----------Sprachauswahl-------------- */
+#sprachauswahl {
+    width: 60px;
+    clear: float;
+    float: right;
+    padding: 0px;
+    margin-top: 12px;
+ }
+
+#sprachauswahl a {
+ color:gray;
+ background: #fff;
+ overflow:hidden;
+ padding: 0 0 0 0px;
+}
+
+#sprachauswahl li {
+	display: inline;   /* Horizontale Ausrichtung der Sprachauswahl */
+	font-size: 1.1em;
+}
+
+
+/* ----------Container fuer Inhalt -------------- */
+#indexcontainer {
+    width: 100%;
+    height: 100%;
+    padding:0px;
+    /*border: white solid 1px;        */
+    background-size:100% 100%;
+    background-image: url(images/home_bg.jpg);
+}
+
+#ueberunscontainer {
+    width: 100%;
+    height: 100%;
+    padding:0px;
+    /*border: white solid 1px;        */
+    background-size:100% 100%;
+    background-image: url(images/ueberuns_bg.jpg);
+}
+
+#philocontainer {
+    width: 100%;
+    height: 100%;
+    padding:0px;
+    /*border: white solid 1px;        */
+    background-size:100% 100%;
+    background-image: url(images/philo_bg.jpg);
+}
+
+#servicecontainer {
+    width: 100%;
+    height: 100%;
+    padding:0px;
+    /*border: white solid 1px;        */
+    background-size:100% 100%;
+    background-image: url(images/service_bg.jpg);
+}
+
+#kontaktcontainer {
+    width: 100%;
+    height: 100%;
+    padding:0px;
+    /*border: white solid 1px;        */
+    background-size:100% 100%;
+    background-image: url(images/kontakt_bg.jpg);
+}
+
+#impressumcontainer {
+    width: 100%;
+    height: 100%;
+    padding:0px;
+    /*border: white solid 1px;        */
+    background-size:100% 100%;
+    background-image: url(images/impressum_bg.jpg);
+}
+#qrcode
+{
+    position: relative;
+    padding: 80px 80px 0px 0px;
+    float: right;
+}
+#silux_logo
+{
+   /* position: relative;*/
+    padding: 0px 100px 0px 10px;
+    float: center;
+}
+
+#muc_container {
+    width: 100%;
+    height: 100%;
+    padding:0px;
+    /*border: white solid 1px;        */
+    background-size:100% 100%;
+    background-image: url(images/muenchen_bg.jpg);
+}
+
+#muc_harlaching_container {
+    width: 100%;
+    height: 100%;
+    padding:0px;
+    /*border: white solid 1px;        */
+    background-size:100% 100%;
+    background-image: url(images/home_bg.jpg);
+}
+/* --------------Linke Menueleiste im Inhalt------------- */
+#menuelinks {
+ width:250px; 
+ height: 400px;
+ position:absolute;
+ opacity: 0.9;
+ text-align:left;
+ margin-left:20px;              /* genau in der FLucht des Logos ausgerichtet */
+ margin-top: 90px;
+}
+
+#menuelinks a {
+ color:darkgray;
+ /*background: #770000;*/
+ display:block; 
+ background: white;
+ width:240px; 
+ height:30px;
+ line-height:25px; 
+ overflow:hidden;
+ padding: 0 0 0 10px;
+ font-size: 1.3em;
+}
+
+#menuelinks a:hover {
+ font-weight: bold;
+ color:#770000;
+ background: #C0C0C0;
+ display:block; 
+ width:240px; 
+ height:30px;
+ line-height:25px; 
+ font-size: 1.3em;
+}
+
+#menuelinks p {
+ padding: 10px;
+ color:gray;
+ background: white;
+ font-size: 1.3em;
+}
+
+#detaillinks {
+    width:245px;
+    height: 100%;
+    position:absolute;
+    opacity: 0.9;
+    /*text-align:left;*/
+    margin-left:20px;              /* genau in der FLucht des Logos ausgerichtet */
+    margin-top: 70px;
+}
+
+#detaillinks a {
+    color:darkgray;
+    background: #ffffff;
+    display:block;
+    /*background: white;  */
+    width:240px;
+    height:30px;
+    line-height:25px;
+    overflow:hidden;
+    padding: 0 0 0 5px;
+    font-size: 1.3em;
+}
+
+#detaillinks a:hover {
+    font-weight: bold;
+    color:#770000;
+    background: #C0C0C0;
+    display:block;
+    width:240px;
+    height:30px;
+    line-height:25px;
+}
+
+#detaillinks p {
+    padding: 5px;
+    color:gray;
+    background: white;
+}
+
+#tabellelinks  {
+    width:350px;
+    height: 100%;
+    position:absolute;
+    opacity: 0.9;
+    text-align:left;
+    margin-left:20px;              /* genau in der FLucht des Logos ausgerichtet */
+    margin-top: 70px;
+}
+
+#tabellelinks p {
+    color: gray;
+    background: white;
+}
+
+table {
+    background: #FFFFFF;
+    color:#000000;
+}
+
+table th {
+    background: darkkred;
+    color: gray;
+}
+
+table tr.hell {
+    background: lightgray;
+}
+
+table tr.dunkel {
+    background: darkgray;
+}
+
+#tabellelinks a
+    {
+    color: #770000;
+}
+
+/* -----------------Inhalt--------------------- */
+#inhalt { 
+    position: relative;
+    width: 650px;									/* feste Breite des Contents */
+    height: 700px;									/* feste H�he des Contents   */
+    margin-top: 40px;
+    margin-left: 300px;
+}
+
+#inhaltrechts_200 {
+    width:600px;
+    height: 200px;
+    position:absolute;
+    text-align:left;
+    margin-left:20px;
+    margin-top: 50px;
+    background: white;
+    opacity: 0.9;
+}
+
+#inhaltrechts_250 {
+    width:600px;
+    height: 250px;
+    position:absolute;
+    text-align:left;
+    margin-left:20px;
+    margin-top: 50px;
+    background: white;
+    opacity: 0.9;
+}
+
+#inhaltrechts_300 {
+    width:600px;
+    height: 300px;
+    position:absolute;
+    text-align:left;
+    margin-left:20px;
+    margin-top: 50px;
+    background: white;
+    opacity: 0.9;
+}
+
+#inhaltrechts_400 {
+    width:600px;
+    height: 400px;
+    position:absolute;
+    text-align:left;
+    margin-left:20px;
+    margin-top: 50px;
+    background: white;
+    opacity: 0.9;
+}
+
+#inhaltrechts_500 {
+    width:600px;
+    height: 500px;
+    position:absolute;
+    text-align:left;
+    margin-left:20px;
+    margin-top: 50px;
+    background: white;
+    opacity: 0.9;
+}
+
+#inhaltrechts_600 {
+    width:600px;
+    height: 600px;
+    position:absolute;
+    text-align:left;
+    margin-left:20px;
+    margin-top: 50px;
+    background: white;
+    opacity: 0.9;
+}
+
+#inhaltrechts_650 {
+    width:600px;
+    height: 650px;
+    position:absolute;
+    text-align:left;
+    margin-left:20px;
+    margin-top: 50px;
+    background: white;
+    opacity: 0.9;
+}
+#inhaltrechts_650 a
+{
+    color: #770000;
+}
+#inhaltrechts_MAX {
+    width:800px;
+    height: 650px;
+    position:absolute;
+    text-align:left;
+    margin-left:-200px;
+    margin-top: 50px;
+    background: white;
+    opacity: 0.9;
+}
+
+#inhaltgooglemap {
+    position: relative;
+    width: 550px;									/* feste Breite des Contents */
+    height: 700px;									/* feste H�he des Contents   */
+    margin-top: 35px;
+    margin-left: 400px;
+}
+
+#googlemap_450 {
+    width:420px;
+    height: 450px;
+    position:absolute;
+    text-align:left;
+    margin-left:20px;
+    margin-top: 50px;
+    background: white;
+}
+
+h1 {
+    padding: 10px 5px 0px 10px;
+    color:gray;
+    font-size: 1.5em;
+}
+
+h2 {
+    padding-left: 10px;
+    color:gray;
+    font-size: 1.4em;
+}
+
+p {
+    padding: 10px;
+    padding-top: 2px;
+    color:gray;
+    font-size: 1.3em;
+}
+#ulnormal {
+		color: gray;
+		font-size: 1.3em;
+	}
+#a_normal{
+    color: #770000;
+}
+
+#Kopf a {color: #000;}
+/*  ----------------Formular---------------------*/
+
+input, textarea {
+    padding: 9px;
+    border: solid 1px #E5E5E5;
+    outline: 0;
+    font: normal 13px/100% Verdana, Tahoma, sans-serif;
+    width: 200px;
+    background: #FFFFFF url('bg_form.png') left top repeat-x;
+    background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #EEEEEE), to(#FFFFFF));
+    background: -moz-linear-gradient(top, #FFFFFF, #EEEEEE 1px, #FFFFFF 25px);
+    box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+    -moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+    -webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+}
+
+textarea {
+    width: 400px;
+    max-width: 400px;
+    height: 150px;
+    line-height: 150%;
+}
+
+input:hover, textarea:hover,
+input:focus, textarea:focus {
+    border-color: #C9C9C9;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 8px;
+}
+
+.form label {
+    margin-left: 10px;
+    color: #999999;
+}
+
+.submit input {
+    width: auto;
+    padding: 9px 15px;
+    background: darkgray;
+    border: 0;
+    font-size: 14px;
+    color: #FFFFFF;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+
+/*  ----------------Fusszeile-------------------- */
+#footer {
+    color:#C0C0C0;
+    /*clear:left; */
+    margin:0px;
+    margin-top:10px;
+    background: white;
+    padding: 10px
+} 
+
+#footer a {
+    color:gray;
+}
+
+#footer a:hover {
+    font-weight: bold;
+}
